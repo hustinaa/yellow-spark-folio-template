@@ -1,20 +1,19 @@
-
 import { Card } from '@/components/ui/card';
-import { Laptop, Book, Code, Palette, Gamepad, Robot } from 'lucide-react';
+import { Laptop, Book, Code, Palette, Gamepad, Bot } from 'lucide-react';
 
 const AboutSection = () => {
   const skills = [
     { name: 'Web Development', progress: 85, icon: <Code className="h-5 w-5 text-portfolio-yellow" /> },
     { name: 'Database Management', progress: 80, icon: <Laptop className="h-5 w-5 text-portfolio-yellow" /> },
     { name: 'UI/UX Design', progress: 75, icon: <Palette className="h-5 w-5 text-portfolio-yellow" /> },
-    { name: 'Robotics', progress: 70, icon: <Robot className="h-5 w-5 text-portfolio-yellow" /> },
+    { name: 'Robotics', progress: 70, icon: <Bot className="h-5 w-5 text-portfolio-yellow" /> },
   ];
 
   const hobbies = [
     { name: 'Reading', icon: <Book className="h-10 w-10 mb-2 text-portfolio-yellow" /> },
     { name: 'Gaming', icon: <Gamepad className="h-10 w-10 mb-2 text-portfolio-yellow" /> },
     { name: 'Digital Art', icon: <Palette className="h-10 w-10 mb-2 text-portfolio-yellow" /> },
-    { name: 'Robotics', icon: <Robot className="h-10 w-10 mb-2 text-portfolio-yellow" /> },
+    { name: 'Robotics', icon: <Bot className="h-10 w-10 mb-2 text-portfolio-yellow" /> },
   ];
 
   const revealer = (index: number) => {
